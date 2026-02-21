@@ -9,8 +9,10 @@
       "lint": {
         "dependsOn": ["^lint"]
       },
+      "lint:all": {},
       "format": {
         "dependsOn": ["^format"]
-      }
+      },
+      "format:check": {}
     }
   }
